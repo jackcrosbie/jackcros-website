@@ -14,7 +14,17 @@
 }
 
 .logo {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
 
+.logo h1 {
+    font-size: 2em;
+}
+
+.logo h2 {
+    font-size: 1em;
 }
 
 .nav-links {
