@@ -24,7 +24,7 @@ body {
     display: flex;
     width: 50%;
     font-family: 'Dancing Script', cursive;
-    margin-left: 50px;
+    margin-left: 150px;
     color: black;
 }
 
@@ -113,6 +113,7 @@ body {
 .card-container {
     display: flex;
     padding: 5%;
+    background-color:#3A506B;
 }
 
 .card {
