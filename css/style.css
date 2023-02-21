@@ -82,7 +82,8 @@ body {
 
 .half-container-left {
     width: 50%;
-    padding: 5%;
+    text-align: center;
+    padding: 5% 0%;
 }
 
 .half-container-right {
