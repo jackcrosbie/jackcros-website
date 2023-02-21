@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,9 +8,13 @@
 
 /* ----------------- navbar */
 
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+
 .navbar {
     height: 20vh;
-    background-color: #B5C2B7;
+    background-color: #5BC0BE;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -16,15 +23,23 @@
 .logo {
     display: flex;
     width: 50%;
-    justify-content: center;
+    font-family: 'Dancing Script', cursive;
+    margin-left: 50px;
+    color: black;
 }
 
 .logo h1 {
-    font-size: 2em;
+    font-size: 3em;
 }
 
 .logo h2 {
-    font-size: 1em;
+    font-size: 2em;
+    text-align: center;
+}
+
+.logo a {
+    text-decoration: none;
+    color: black;
 }
 
 .nav-links {
@@ -44,4 +59,45 @@
 
 .nav-links a:hover {
     text-decoration: underline;
+}
+
+/* ----------------- about section */
+
+.about-container {
+    background-color: #3A506B;
+}
+
+.about-content {
+    display: flex;
+    height: fit-content;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-content h1 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.half-container-left {
+    width: 50%;
+    padding: 5%;
+}
+
+.half-container-right {
+    width: 50%;
+    padding: 5%;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    opacity: .9;
+}
+
+.about-container p {
+    background-color: #5BC0BE;
+    padding: 5%;
+    border-radius: 25px;
+    font-size: 1.2em;
 }
