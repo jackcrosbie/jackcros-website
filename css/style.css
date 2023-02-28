@@ -129,11 +129,12 @@ body {
 }
 
 .hackathons p {
-    background-color: white;
     padding: 2%;
     border-radius: 25px;
     font-size: 1.2em;
     width: fit-content;
+    background-color: #6EEB83;
+    box-shadow: 10px 10px #1BE7FF;
 }
 
 .card-container {
@@ -160,6 +161,7 @@ body {
     background: linear-gradient(to right,#1BE7FF,#6EEB83);
     display: flex;
     justify-content: center;
+    padding: 2%;
 }
 
 iframe {
