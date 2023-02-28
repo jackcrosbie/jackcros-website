@@ -14,10 +14,10 @@ body {
 
 .navbar {
     height: 20vh;
-    background-color: #5BC0BE;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background: linear-gradient(to right,#E4FF1A,#FF5714);
 }
 
 .logo {
@@ -49,6 +49,11 @@ body {
 .nav-links li {
     display: inline;
     padding: 5%;
+    border-right: 1px solid black;
+}
+
+.nav-links li:last-child {
+    border-right: none;
 }
 
 .nav-links a {
@@ -64,7 +69,7 @@ body {
 /* ----------------- about section */
 
 .about-container {
-    background-color: #0B132B;
+    background: linear-gradient(to right,#1BE7FF,#6EEB83);
 }
 
 .about-content {
@@ -96,8 +101,9 @@ body {
     opacity: .9;
 }
 
-.about-container p {
-    background-color: #5BC0BE;
+.half-container-right p {
+    background-color: #E4FF1A;
+    box-shadow: 10px 10px #FF5714;
     padding: 5%;
     border-radius: 25px;
     font-size: 1.2em;
@@ -105,15 +111,35 @@ body {
 
 /* ----------------- hackathon */
 
+.hackathon-container {
+    background: linear-gradient(to right,#E4FF1A,#FF5714);
+}
+
+.hackathons {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-top: 2%;
+}
+
 .hackathons h1 {
     text-align: center;
     font-size: 3em;
 }
 
+.hackathons p {
+    background-color: white;
+    padding: 2%;
+    border-radius: 25px;
+    font-size: 1.2em;
+    width: fit-content;
+}
+
 .card-container {
     display: flex;
     padding: 5%;
-    background-color:#3A506B;
+    background: linear-gradient(to right,#E4FF1A,#FF5714);
 }
 
 .card {
@@ -121,8 +147,44 @@ body {
     max-width: 300px;
     margin: auto;
     text-align: center;
+    background-color: white;
   }
 
   .card img {
     width: 100%;
   }
+
+/* ----------------- cv */
+
+.cv-container {
+    background: linear-gradient(to right,#1BE7FF,#6EEB83);
+    display: flex;
+    justify-content: center;
+}
+
+iframe {
+    height: 800px;
+    width: 600px;
+}
+
+/* ----------------- footer css */
+
+footer {
+    bottom: 0;
+    height: 5em;
+    background: linear-gradient(to right,#E4FF1A,#FF5714);
+    display: flex;
+    justify-content: center;
+}
+
+footer a:hover {
+    color: #1BE7FF;
+}
+
+.fa-brands {
+    padding: 2% 5%;
+    font-size: 40px;
+    width: 50px;
+    text-decoration: none;
+    color: black;
+}
