@@ -22,7 +22,7 @@ body {
 
 .logo {
     display: flex;
-    width: 50%;
+    width: 40%;
     font-family: 'Dancing Script', cursive;
     margin-left: 150px;
     color: black;
@@ -43,7 +43,7 @@ body {
 }
 
 .nav-links {
-    width: 50%;
+    width: 60%;
 }
 
 .nav-links li {
@@ -126,7 +126,7 @@ body {
 
 .hackathons h1 {
     text-align: center;
-    font-size: 3em;
+    font-size: 4em;
     font-family: 'Dancing Script', cursive;
     padding-bottom: 2%;
 }
