@@ -81,8 +81,9 @@ body {
 }
 
 .about-content h1 {
-    font-size: 2em;
+    font-size: 3em;
     text-align: center;
+    font-family: 'Dancing Script', cursive;
 }
 
 .half-container-left {
@@ -126,6 +127,8 @@ body {
 .hackathons h1 {
     text-align: center;
     font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+    padding-bottom: 2%;
 }
 
 .hackathons p {
