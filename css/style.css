@@ -112,7 +112,7 @@ body {
 
 /* ----------------- hackathon */
 
-.hackathon-container {
+#hackathon-container {
     background: linear-gradient(to right,#E4FF1A,#FF5714);
 }
 
@@ -152,23 +152,44 @@ body {
     margin: auto;
     text-align: center;
     background-color: white;
+    height: 500px;
+  }
+
+  .card h1 {
+    text-decoration: underline;
+    font-size: 1.8em;
+    padding-bottom: 5%;
   }
 
   .card img {
     width: 100%;
   }
 
-/* ----------------- cv */
+  .card p {
+    padding-bottom: 2%;
+  }
 
-.cv-container {
+/* ----------------- cv */
+#qual-container {
     background: linear-gradient(to right,#1BE7FF,#6EEB83);
-    display: flex;
-    justify-content: center;
     padding: 2%;
 }
 
-iframe {
+#cv-container {
+    display: flex;
+}
+
+.cert-container {
+    padding: 5% 1%;
+}
+
+.cv {
     height: 800px;
+    width: 600px;
+}
+
+.cert {
+    height: 520px;
     width: 600px;
 }
 
