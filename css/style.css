@@ -204,6 +204,18 @@ body {
     padding: 3%;
 }
 
+/* ----------------- projects section css */
+
+#projects-container {
+    background: linear-gradient(to right,#E4FF1A,#FF5714);
+}
+
+/* ----------------- contact section css */
+
+#contact-container {
+    background: linear-gradient(to right,#1BE7FF,#6EEB83);
+}
+
 /* ----------------- footer css */
 
 footer {
@@ -225,3 +237,4 @@ footer a:hover {
     text-decoration: none;
     color: black;
 }
+
