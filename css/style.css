@@ -1,3 +1,4 @@
+/* ----------------- google font imports */
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 
@@ -173,6 +174,11 @@ body {
 #qual-container {
     background: linear-gradient(to right,#1BE7FF,#6EEB83);
     padding: 2%;
+}
+
+#qual-container p {
+    text-align: center;
+    font-size: 1.5em;
 }
 
 #cv-container {
