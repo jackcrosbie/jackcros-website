@@ -7,11 +7,18 @@
     padding: 0;
 }
 
-/* ----------------- navbar */
-
 body {
     font-family: 'Fira Sans', sans-serif;
 }
+
+.headings {
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    padding-bottom: 2%;
+}
+
+/* ----------------- navbar */
 
 .navbar {
     height: 20vh;
@@ -79,12 +86,6 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-}
-
-.headings {
-    font-size: 3em;
-    text-align: center;
-    font-family: 'Dancing Script', cursive;
 }
 
 .half-container-left {
