@@ -142,6 +142,7 @@ body {
     width: fit-content;
     background-color: #6EEB83;
     box-shadow: 10px 10px #1BE7FF;
+    line-height: 1.7;
 }
 
 .card-container {
