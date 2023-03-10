@@ -16,7 +16,7 @@ body {
     font-size: 3em;
     font-weight: bold;
     text-align: center;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Dancing Script', cursive, sans-serif;
     padding-bottom: 2%;
 }
 
@@ -104,7 +104,6 @@ body {
 
 .profile-pic {
     border-radius: 50%;
-    opacity: .9;
 }
 
 .half-container-right p {
@@ -234,6 +233,14 @@ body {
     display: none;
 }
 
+.carousel-card p {
+    padding-left: 2%;
+}
+
+.carousel-card h1 {
+    padding-left: 2%;
+}
+
 .carousel-card img {
     width: 100%;
     height: 400px;
@@ -271,6 +278,7 @@ body {
 #contact-container {
     display: flex;
     height: fit-content;
+    padding-bottom: 2%;
 }
 
 .contact-details {
@@ -317,6 +325,8 @@ body {
     font-family: 'Dancing Script', cursive;
     font-size: 5em;
     animation: pulse 1s infinite;
+    border: 5px solid black;
+    border-radius: 20%;
 }
 
 @keyframes pulse {
