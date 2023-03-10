@@ -3,6 +3,7 @@ displaySlides(currentIndex);
 
 function setSlides(num) {
     displaySlides(currentIndex += num);
+    element.style.opacity = 1;
 }
 
 function displaySlides(num) {
@@ -15,3 +16,4 @@ function displaySlides(num) {
     }
     slides[currentIndex - 1].style.display = "block";
 }
+

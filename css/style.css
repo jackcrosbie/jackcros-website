@@ -156,7 +156,7 @@ body {
     margin: auto;
     text-align: center;
     background-color: white;
-    height: 500px;
+    height: 580px;
   }
 
   .card h1 {
@@ -170,7 +170,15 @@ body {
   }
 
   .card p {
-    padding-bottom: 2%;
+    padding: 2% 4%;
+  }
+
+  .card a {
+    text-decoration: none;
+  }
+
+  .card a:hover {
+    text-decoration: underline;
   }
 
 /* ----------------- cv */
@@ -225,8 +233,8 @@ body {
     max-width: 600px;
     position: relative;
     margin: 0 auto;
-    border: 1px solid black;
-    background-color: white;
+    border: 2px solid black;
+    background: linear-gradient(to right,#1BE7FF,#6EEB83);
 }
 
 .carousel-card {
@@ -234,7 +242,7 @@ body {
 }
 
 .carousel-card p {
-    padding-left: 2%;
+    padding: 2%;
 }
 
 .carousel-card h1 {
@@ -244,6 +252,26 @@ body {
 .carousel-card img {
     width: 100%;
     height: 400px;
+}
+
+.carousel-card a {
+    font-size: 1.5em;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1%;
+}
+
+.carousel-card a:hover {
+    text-decoration: underline;
+}
+
+.carousel-card hr {
+    margin: auto;
+    width: 80%;
+    height: 2px;
+    background-color: black;
 }
 
 .carousel-btns {
