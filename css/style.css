@@ -453,6 +453,7 @@ footer a:hover {
     }
     #contact-container {
         display: block;
+        padding-bottom: 10%;
     }
     .contact-details {
         width: 100%;
@@ -464,6 +465,14 @@ footer a:hover {
         display: flex;
         text-align: center;
         flex-direction: column;
+    }
+    .social-links .fa-brands {
+        justify-content: center;
+        display: flex;
+        padding: 0;
+    }
+    .social-links .fa-solid {
+        display: flex;
     }
     .text-container {
         width: 100%;
