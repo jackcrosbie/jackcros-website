@@ -303,6 +303,22 @@ body {
     padding: 5% 0%;
 }
 
+.additional-projects {
+    display: flex;
+    flex-direction: column;
+    padding: 5% 7%;
+}
+
+.additional-projects li {
+    padding: 1%;
+    font-size: 1.5em;
+}
+
+.additional-projects .fa-solid {
+    padding-left: 1%;
+    font-size: 1.3em;
+}
+
 /* ----------------- contact container css */
 
 #contact-container {
