@@ -20,7 +20,6 @@ body {
     padding-bottom: 2%;
 }
 
-
 /* ----------------- navbar */
 
 .navbar {
@@ -306,7 +305,7 @@ body {
 .additional-projects {
     display: flex;
     flex-direction: column;
-    padding: 5% 7%;
+    padding: 5% 7% 3% 7%;
 }
 
 .additional-projects li {
@@ -317,6 +316,12 @@ body {
 .additional-projects .fa-solid {
     padding-left: 1%;
     font-size: 1.3em;
+}
+
+hr {
+    border: 1px solid black;
+    width: 70%;
+    margin: auto;
 }
 
 /* ----------------- contact container css */
